@@ -10,7 +10,7 @@ import configs from '../../utils/constants';
 
 const DataGen = new express.Router();
 
-security(DataGen);
+security(DataGen);  // Adding security params
 
 
 // simple data fetch
