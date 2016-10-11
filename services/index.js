@@ -4,7 +4,7 @@
 
 import { createServer } from 'http';
 import express from 'express';
-import glintserver from './routes/analytics/datagen';
+import zeusserver from './routes/analytics/datagen';
 
 
 const app = express();
@@ -22,7 +22,7 @@ const options = {
 const env = process.argv[2];
 const config = require(`./config.${env}.json`);
 
-app.use('/glintserver', glintserver);
+app.use('/zeusserver', zeusserver);
 
 createServer(app).listen(config.port, config.hostname, () => (
     console.log('Started!')

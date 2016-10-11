@@ -3,5 +3,5 @@
  */
 
 module.exports = {
-    "url":"http://aware-ui-test1.s3.amazonaws.com/sample_data.json.txt.gz"
+    "url":"https://s3-us-west-2.amazonaws.com/zeus-data/sample_data.json.txt.gz"
 };

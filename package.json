@@ -1,5 +1,5 @@
 {
-  "name": "glintserverapi",
+  "name": "zeusserverapi",
   "version": "1.0.0",
   "description": "APIs to fetch server data",
   "main": "index.js",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tejaswaroop51/glintserverapi.git"
+    "url": "git+https://github.com/tejaswaroop51/zeusserverapi.git"
   },
   "keywords": [
-    "glintserverapi"
+    "zeusserverapi"
   ],
   "author": "Tejaswaroop Vankadari",
   "license": "ISC",
-  "homepage": "https://github.com/TendeRetail/glintserverapi#readme",
+  "homepage": "https://github.com/TendeRetail/zeusserverapi#readme",
   "dependencies": {
     "body-parser": "^1.15.2",
     "cors": "^2.8.1",
