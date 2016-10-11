@@ -3,5 +3,5 @@
  */
 
 module.exports = {
-    "url":"https://s3-us-west-2.amazonaws.com/zeus-data/sample_data.json.txt.gz"
+    url: 'https://s3-us-west-2.amazonaws.com/zeus-data/sample_data.json.txt.gz',
 };
